@@ -1,0 +1,162 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 0;
+}
+
+/* Barra superior */
+.top-bar {
+    background: #154926;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    position: relative;
+    margin-top: -10px;
+}
+
+/* Navegação */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #154926;
+}
+.menu{
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente (caso necessário) */
+    width: 100%; /* Garante que ocupe toda a largura disponível */
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Seção de introdução */
+.introducao {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #154926;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.introducao p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilização dos colaboradores */
+.colaboradores {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.colaborador {
+    text-align: center;
+}
+
+.colaborador img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #154926;
+    object-fit: cover;
+}
+
+.colaborador p {
+    font-weight: bold;
+    color: #154926;
+}
+
+/* Rodapé */
+footer {
+    background-color: #154926;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around; /* Distribui os elementos igualmente */
+    padding-bottom: 10px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px; /* Para evitar que fique muito pequeno em telas menores */
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('Banner.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top: 20px;
+}
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
+}
