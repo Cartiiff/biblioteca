@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doe seus livros e espalhe conhecimento!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div class="top-bar">Cada livro é uma nova porta para o conhecimento. Leia e descubra mundos incríveis!</div>
+<nav>
+    <div class="logo">Carti</div>
+   <div class="menu">
+    <ul>
+        <li><a href="Paginainicial.html">Início</a></li>
+        <li><a href="categorias.html">Categorias</a></li>
+        <li><a href="como doar.html">Como Doar?</a></li>
+        <li><a href="sobre projeto.html">Sobre o Projeto</a></li>
+    </ul>
+    </div>
+    </div>
+</nav>
+</header>
+<section class="banner" style="background: url('como\ doar.jpg') no-repeat center center/cover;">
+</section>
+</head>
+<body>
+    <section class="content">
+        <h1>Doe seus livros e espalhe conhecimento!📚✨</h1>
+        <p>Você tem livros que já leu e que estão parados na estante? Que tal dar a eles um novo propósito e permitir 
+            que outras pessoas também possam desfrutar dessas histórias incríveis? O CARTI está
+            recebendo doações de livros de <strong>, mangás, romances, ficção e muitos outros gêneros!</strong> Seja 
+                aquele livro que te emocionou, um mangá que te fez vibrar ou uma ficção que te transportou para 
+                outro universo, sua doação pode fazer a diferença para alguém.<br>
+                <div class="lugarr">
+                    <p>📍 Entregue diretamente na sala do CARTI.<br>
+                    📍 Doe através de um representante da sua sala.</p>
+                </div>
+        <div class="doar"><h2>Por que doar?</h2></div>
+        <ul class="faq-list">
+            <li onclick="toggleAnswer(0)">🌱 Sustentabilidade</li>
+            <p class="faq-answer">Reutilizar livros reduz o desperdício de papel e contribui para a preservação da natureza.</p>
+            <li onclick="toggleAnswer(1)">📖 Acesso à leitura</li>
+            <p class="faq-answer">Muitas pessoas não têm condições de comprar livros, e sua doação pode proporcionar a alguém uma nova experiência literária.</p>
+            <li onclick="toggleAnswer(2)">🤝 Compartilhamento de conhecimento</li>
+            <p class="faq-answer">Histórias têm o poder de inspirar, ensinar e transformar vidas!</p>
+            <li onclick="toggleAnswer(3)">📚 Mais espaço para novas leituras</li>
+            <p class="faq-answer">Ao doar livros que você já leu, você libera espaço para adquirir novas histórias e renovar sua biblioteca pessoal.</p>
+        </ul>
+        <p>Para mais informações, procure a equipe do <strong>CARTI</strong>. 💙📚</p>
+    </section>
+    <script>
+        function toggleAnswer(index) {
+            const answers = document.querySelectorAll('.faq-answer');
+            answers[index].classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
