@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 0;
+}
+
+/* Barra superior */
+.top-bar {
+    background: #154926;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    position: relative;
+    margin-top: -10px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: white;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #154926;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Caixa de pesquisa */
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.search-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Layout do livro */
+.container {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.book-left {
+    width: 35%;
+    text-align: center;
+}
+
+.book-left img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.green {
+    background-color: #228B22;
+}
+
+.blue {
+    background-color: #0073e6;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.book-right {
+    width: 65%;
+}
+
+.book-right h1 {
+    font-size: 24px;
+    color: #154926;
+    text-transform: capitalize;
+}
+
+.author {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0 15px;
+}
+
+.author span {
+    font-weight: bold;
+    color: #154926;
+}
+
+/* Sinopse */
+.synopsis {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.synopsis h3 {
+    font-size: 18px;
+    color: #154926;
+    margin-bottom: 5px;
+}
+
+/* Tabela de características */
+.book-right table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.book-right th, .book-right td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.book-right th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+/* Removendo o quadrado verde e ajustando a seta */
+a {
+    text-decoration: none;
+    color: rgb(238, 235, 235);
+    font-weight: bold;
+}
+
+/* Container das seções */
+footer {
+    background-color: #154926;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.voltar{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
