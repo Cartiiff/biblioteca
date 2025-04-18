@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca Solidária do Carti</title>
     <link rel="stylesheet" href="Paginainicial.css">
+    <style>
+        /* Garantia de largura cheia inline, caso CSS externo demore a carregar */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 <body>
 
@@ -25,7 +34,8 @@
             </div>
         </nav>
     </header>
-    <section class="banner" style="background: url('Banner.jpg') no-repeat center center/cover;">
+
+    <section class="banner">
         <div class="overlay">
             <h1>Bem-vindo à biblioteca solidária do Carti!</h1>
             <div class="search-box">
@@ -64,28 +74,30 @@
             </div>
         </div>
     </section>
-<!-- Rodapé -->
-<footer>
-    <div class="footer-container">
-        <div class="footer-section">
-            <h3>Sobre nós</h3>
-            <p> Acreditamos no poder transformador da leitura! <br>
-                Nosso objetivo é garantir que mais alunos tenham acesso a livros e <br>
-                incentivando o hábito da leitura e ampliando suas oportunidades de aprendizado. <br>
-                Fazemos isso por meio de doações de livros.</p>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Sobre nós</h3>
+                <p>
+                    Acreditamos no poder transformador da leitura! <br>
+                    Nosso objetivo é garantir que mais alunos tenham acesso a livros e <br>
+                    incentivando o hábito da leitura e ampliando suas oportunidades de aprendizado. <br>
+                    Fazemos isso por meio de doações de livros.
+                </p>
+            </div>
+            <div class="footer-section">
+                <h3>Contato</h3>
+                <p>Email: cart.iff.centro@gmail.com</p>
+                <p>Telefone: (11) 1234-5678</p>
+            </div>
+            <div class="footer-section">
+                <h3>Redes sociais</h3>
+                <p><a href="https://www.instagram.com/carti.iff/?hl=pt-br">📷 Instagram</a></p>
+            </div>
         </div>
-        <div class="footer-section">
-            <h3>Contato</h3>
-            <p>Email: cart.iff.centro@gmail.com</p>
-            <p>Telefone: (11) 1234-5678</p>
-        </div>
-        <div class="footer-section">
-            <h3>Redes sociais</h3>
-            <p> <a href="https://www.instagram.com/carti.iff/?hl=pt-br"> 📷 Instagram</a></p>
-        </div>
-    </div>
-    <p class="copyright">© 2025 Carti - Todos os direitos reservados.</p>
-</footer>
+        <p class="copyright">© 2025 Carti - Todos os direitos reservados.</p>
+    </footer>
 
 </body>
 </html>

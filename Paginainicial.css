@@ -1,3 +1,16 @@
+/* Correção de largura e rolagem lateral */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Box-sizing para controle mais preciso de largura */
+* {
+    box-sizing: border-box;
+}
+
 /* Estilos gerais */
 body {
     margin: 0;
@@ -84,6 +97,7 @@ nav ul li a {
     justify-content: center;
     background: url('Banner.jpg') no-repeat center center;
     background-size: cover;
+    width: 100%;
 }
 
 /* Sobreposição para melhor visibilidade do texto */
@@ -132,7 +146,9 @@ nav ul li a {
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza o conteúdo dentro da categoria */
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Centraliza os livros na tela */
@@ -140,8 +156,9 @@ nav ul li a {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    justify-content: center; /* Centraliza os livros na tela */
-    max-width: 90%; /* Evita que fique muito espalhado */
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .categoria h2 {
@@ -198,6 +215,7 @@ nav ul li a {
     color: black;
     font-weight: bold;
 }
+
 footer {
     background-color: #154926;
     color: white;
