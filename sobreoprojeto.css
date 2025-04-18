@@ -1,9 +1,14 @@
 /* Estilos gerais */
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
     padding: 0;
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 
 /* Barra superior */
@@ -27,7 +32,6 @@ nav {
     padding: 15px 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100%;
-    box-sizing: border-box;
 }
 
 .logo {
@@ -35,18 +39,19 @@ nav {
     font-weight: bold;
     color: #154926;
 }
-.menu{
+.menu {
     display: flex;
-    justify-content: center; /* Centraliza os itens horizontalmente */
-    align-items: center; /* Centraliza os itens verticalmente (caso necessário) */
-    width: 100%; /* Garante que ocupe toda a largura disponível */
-    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
+
 nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
@@ -87,6 +92,7 @@ h2 {
     justify-content: center;
     gap: 30px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .colaborador {
@@ -113,17 +119,20 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-top: 20px;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-around; /* Distribui os elementos igualmente */
+    justify-content: space-around;
     padding-bottom: 10px;
+    flex-wrap: wrap;
 }
 
 .footer-section {
     flex: 1;
-    min-width: 250px; /* Para evitar que fique muito pequeno em telas menores */
+    min-width: 250px;
     padding: 10px;
     text-align: center;
 }
@@ -154,6 +163,7 @@ footer {
     background: url('Banner.jpg') no-repeat center center;
     background-size: cover;
     margin-top: 20px;
+    width: 100%;
 }
 .logo {
     display: block;
