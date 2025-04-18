@@ -1,92 +1,70 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
-    padding: 0;
-}
-
-/* Barra superior */
-.top-bar {
+  }
+  
+  /* TOPO */
+  .top-bar {
     background: #154926;
     color: white;
     text-align: center;
     padding: 10px;
     font-size: 14px;
-    width: 100%;
-    position: relative;
-    margin-top: -10px;
-}
-
-/* Navegação */
-nav {
+  }
+  
+  /* NAVEGAÇÃO */
+  nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: white;
     padding: 15px 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.logo {
+    flex-wrap: wrap;
+  }
+  
+  .logo {
     font-size: 24px;
     font-weight: bold;
     color: #154926;
-}
-
-nav ul {
+  }
+  
+  .menu ul {
     list-style: none;
     display: flex;
     gap: 20px;
     padding: 0;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
+    margin: 0;
+  }
+  
+  .menu ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-.menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.banner {
-    position: relative;
+  }
+  
+  /* BANNER */
+  .banner {
     height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: url('Categoria.jpg') no-repeat center center;
     background-size: cover;
-}
-.container {
+  }
+  
+  /* CONTEÚDO PRINCIPAL */
+  .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Reduzi para 3 colunas para juntar mais os elementos */
-    column-gap: 15px; /* Diminui o espaço entre colunas */
-    row-gap: 15px; /* Diminui o espaço entre as linhas */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
     padding: 20px;
-    justify-content: center;
-}
-
-.categoria {
+    justify-items: center;
+  }
+  
+  .categoria {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    text-align: center;
     width: 180px;
     height: 80px;
     display: flex;
@@ -94,74 +72,59 @@ body {
     justify-content: center;
     border-radius: 40px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: auto;
-}
-
-.containe {
-    display: flex;
-    justify-content: center; /* Centraliza a div na página */
-    flex-direction: row; /* Alinha os botões na horizontal */
-    gap: 15px; /* Diminui o espaço entre os botões */
-    margin-top: 20px; /* Adiciona um pequeno espaçamento do restante */
-}
-
-.containe .categoria {
-    flex: 1 1 180px; /* Mantém os botões do mesmo tamanho */
-    max-width: 180px; /* Evita que fiquem muito largos */
-    text-align: center;
-}
-
-/* Cores diferentes para cada categoria */
-.categoria1 { background-color: #4CAF50; }  /* Verde clássico */
-.categoria2 { background-color: #66BB6A; } /* Verde mais claro */
-.categoria3 { background-color: #81C784; } /* Verde médio */
-.categoria4 { background-color: #A5D6A7; } /* Verde suave */
-.categoria5 { background-color: #C8E6C9; color: black; } /* Verde muito claro */
-.categoria6 { background-color: #388E3C; } /* Verde escuro */
-.categoria7 { background-color: #2E7D32; } /* Verde mais fechado */
-.categoria8 { background-color: #1B5E20; } /* Verde musgo */
-.categoria9 { background-color: #43A047; } /* Verde esmeralda */
-.categoria10 { background-color: #66BB6A; } /* Verde claro */
-.categoria11 { background-color: #4CAF50; } /* Verde vibrante */
-.categoria12 { background-color: #66BB6A; } /* Verde azulado */
-.categoria13 { background-color: #81C784; } /* Verde água */
-.categoria14 { background-color: #A5D6A7; } /* Verde pastel */
-.categoria15 { background-color: #C8E6C9; color: black; } /* Verde muito escuro */
-
-a {
-    text-decoration: none;
-    color: rgb(238, 235, 235);
-    font-weight: bold;
-}
-/* Efeito ao passar o mouse */
-.categoria:hover {
+  }
+  
+  /* Cores por categoria */
+  .categoria1 { background-color: #4CAF50; }
+  .categoria2 { background-color: #66BB6A; }
+  .categoria3 { background-color: #81C784; }
+  .categoria4 { background-color: #A5D6A7; color: black; }
+  .categoria5 { background-color: #C8E6C9; color: black; }
+  .categoria6 { background-color: #388E3C; }
+  .categoria9 { background-color: #43A047; }
+  .categoria14 { background-color: #A5D6A7; color: black; }
+  
+  .categoria:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-footer {
+  }
+  
+  /* FOOTER */
+  footer {
     background-color: #154926;
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 20px;
-}
-
-.footer-container {
+  }
+  
+  .footer-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding-bottom: 10px;
-}
-
-.footer-section h3 {
+  }
+  
+  .footer-section h3 {
     font-size: 16px;
     margin-bottom: 10px;
-}
-
-.footer-section p {
+  }
+  
+  .footer-section p {
     font-size: 14px;
-}
-
-.copyright {
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
     font-size: 12px;
     margin-top: 10px;
-}
+  }
+  
