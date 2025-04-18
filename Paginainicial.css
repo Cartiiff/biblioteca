@@ -227,16 +227,16 @@ footer {
 .footer-container {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 10px;
+    padding-bottom: 9px;
 }
 
 .footer-section h3 {
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-section p {
-    font-size: 10px;
+    font-size: 9px;
 }
 
 .copyright {
