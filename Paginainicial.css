@@ -62,8 +62,9 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #be3b1a;
+    color: hsl(119, 20%, 54%);
     font-weight: bold;
+    font-size: 10px
 }
 
 /* Barra de pesquisa no menu */
