@@ -185,3 +185,18 @@ a {
         margin-top: 10px;
     }
     
+
+    .containe {
+        display: flex;
+        justify-content: center; /* Centraliza a div na página */
+        flex-direction: row; /* Alinha os botões na horizontal */
+        gap: 15px; /* Diminui o espaço entre os botões */
+        margin-top: 20px; /* Adiciona um pequeno espaçamento do restante */
+    }
+    
+    .containe .categoria {
+        flex: 1 1 180px; /* Mantém os botões do mesmo tamanho */
+        max-width: 180px; /* Evita que fiquem muito largos */
+        text-align: center;
+    }
+    
