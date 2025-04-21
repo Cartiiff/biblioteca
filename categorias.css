@@ -101,35 +101,6 @@ nav ul li a {
     width: 100%;
 }
 
-.categoria {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    width: 180px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 40px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: auto;
-}
-
-.containe {
-    display: flex;
-    justify-content: center; /* Centraliza a div na página */
-    flex-direction: row; /* Alinha os botões na horizontal */
-    gap: 15px; /* Diminui o espaço entre os botões */
-    margin-top: 20px; /* Adiciona um pequeno espaçamento do restante */
-}
-
-.containe .categoria {
-    flex: 1 1 180px; /* Mantém os botões do mesmo tamanho */
-    max-width: 180px; /* Evita que fiquem muito largos */
-    text-align: center;
-}
-
 /* Cores diferentes para cada categoria */
 .categoria1 { background-color: #4CAF50; }  /* Verde clássico */
 .categoria2 { background-color: #66BB6A; } /* Verde mais claro */
@@ -146,6 +117,16 @@ nav ul li a {
 .categoria13 { background-color: #81C784; } /* Verde água */
 .categoria14 { background-color: #A5D6A7; } /* Verde pastel */
 .categoria15 { background-color: #C8E6C9; color: black; } /* Verde muito escuro */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Reduzi para 3 colunas para juntar mais os elementos */
+    column-gap: 15px; /* Diminui o espaço entre colunas */
+    row-gap: 15px; /* Diminui o espaço entre as linhas */
+    padding: 20px;
+    justify-content: center;
+}
+
 
 a {
     text-decoration: none;
