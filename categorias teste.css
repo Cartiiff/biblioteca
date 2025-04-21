@@ -143,3 +143,8 @@ nav ul li a {
 * {
     box-sizing: border-box;
 }
+body nav a{
+    text-decoration: none;
+    color: #154926;
+    font-weight: bold;
+}
