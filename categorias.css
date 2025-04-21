@@ -155,7 +155,8 @@ a {
 /* Efeito ao passar o mouse */
 .categoria:hover {
     transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+
     footer {
         background-color: #154926;
         color: white;
@@ -183,3 +184,4 @@ a {
         font-size: 12px;
         margin-top: 10px;
     }
+    
