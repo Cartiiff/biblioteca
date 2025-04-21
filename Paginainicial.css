@@ -103,7 +103,6 @@ nav ul li a {
 
 /* Sobreposição para melhor visibilidade do texto */
 .overlay {
-    background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -112,7 +111,7 @@ nav ul li a {
 /* Título dentro do banner */
 .overlay h1 {
     margin: 0 0 10px;
-    color: #154926;
+    color: #ebf7ef;
 }
 
 /* Caixa de pesquisa dentro do banner */
