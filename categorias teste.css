@@ -1,8 +1,22 @@
-body {
+/* Correção de largura e rolagem lateral */
+html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Box-sizing para controle mais preciso de largura */
+* {
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: #f8f8f8;
+    padding: 0;
 }
 
 /* Barra superior */
@@ -11,10 +25,10 @@ body {
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 14px;
+    font-size: 10px;
     width: 100%;
     position: relative;
-    margin: 0;
+    margin-top: -10px;
 }
 
 /* Navegação */
@@ -25,10 +39,14 @@ nav {
     background: white;
     padding: 15px 30px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 100vw;
-    max-width: 100%;
+    width: 100%;
     box-sizing: border-box;
-    margin: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #154926;
 }
 
 nav ul {
@@ -36,41 +54,52 @@ nav ul {
     display: flex;
     gap: 20px;
     padding: 0;
-    margin: 0;
 }
 
 nav ul li {
     display: inline;
-    unicode-bidi: isolate;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: hsl(119, 20%, 54%);
     font-weight: bold;
-}
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #154926;
-}
-.menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    font-size: 10px
 }
 
+/* Barra de pesquisa no menu */
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-bar input {
+    border: none;
+    padding: 8px;
+    outline: none;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Banner */
 .banner {
     position: relative;
-    height: 200px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('/Banner/suspense.jpg') no-repeat center center;
+    background: url('Banner.jpg') no-repeat center center;
     background-size: cover;
-    margin: 0;
-    padding: 0;
+    width: 100%;
+}
 }
 /* Categorias de livros */
 .Estante {
