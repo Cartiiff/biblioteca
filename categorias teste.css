@@ -139,3 +139,7 @@ nav ul li a {
     color: black;
     font-weight: bold;
 }
+/* Box-sizing para controle mais preciso de largura */
+* {
+    box-sizing: border-box;
+}
