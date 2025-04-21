@@ -1,30 +1,140 @@
-/* Container geral dos botões */
-.botoes-categorias {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 16px;
-    padding: 24px;
-    max-width: 900px;
-    margin: 0 auto;
-  }
-  
-  /* Estilo dos botões */
-  .botoes-categorias button {
-    background-color: #4CAF50;
+/* Cabeçalho (nav) padronizado */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #154926;
     color: white;
-    font-weight: 600;
-    border: none;
-    border-radius: 12px;
-    padding: 16px 12px;
+    padding: 15px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Rodapé padronizado */
+footer {
+    background-color: #154926;
+    color: white;
     text-align: center;
-    cursor: pointer;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease;
+    padding: 30px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-section {
+    min-width: 200px;
+}
+
+.footer-section h3 {
     font-size: 16px;
-  }
-  
-  .botoes-categorias button:hover {
-    background-color: #388E3C;
-    transform: translateY(-2px);
-  }
-  
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.banner {
+    position: relative;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('Categoria.jpg') no-repeat center center;
+    background-size: cover;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Reduzi para 3 colunas para juntar mais os elementos */
+    column-gap: 15px; /* Diminui o espaço entre colunas */
+    row-gap: 15px; /* Diminui o espaço entre as linhas */
+    padding: 20px;
+    justify-content: center;
+}
+
+.categoria {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 180px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: auto;
+}
+
+.containe {
+    display: flex;
+    justify-content: center; /* Centraliza a div na página */
+    flex-direction: row; /* Alinha os botões na horizontal */
+    gap: 15px; /* Diminui o espaço entre os botões */
+    margin-top: 20px; /* Adiciona um pequeno espaçamento do restante */
+}
+
+.containe .categoria {
+    flex: 1 1 180px; /* Mantém os botões do mesmo tamanho */
+    max-width: 180px; /* Evita que fiquem muito largos */
+    text-align: center;
+}
+
+/* Cores diferentes para cada categoria */
+.categoria1 { background-color: #4CAF50; }  /* Verde clássico */
+.categoria2 { background-color: #66BB6A; } /* Verde mais claro */
+.categoria3 { background-color: #81C784; } /* Verde médio */
+.categoria4 { background-color: #A5D6A7; } /* Verde suave */
+.categoria5 { background-color: #C8E6C9; color: black; } /* Verde muito claro */
+.categoria6 { background-color: #388E3C; } /* Verde escuro */
+.categoria7 { background-color: #2E7D32; } /* Verde mais fechado */
+.categoria8 { background-color: #1B5E20; } /* Verde musgo */
+.categoria9 { background-color: #43A047; } /* Verde esmeralda */
+.categoria10 { background-color: #66BB6A; } /* Verde claro */
+.categoria11 { background-color: #4CAF50; } /* Verde vibrante */
+.categoria12 { background-color: #66BB6A; } /* Verde azulado */
+.categoria13 { background-color: #81C784; } /* Verde água */
+.categoria14 { background-color: #A5D6A7; } /* Verde pastel */
+.categoria15 { background-color: #C8E6C9; color: black; } /* Verde muito escuro */
+
+a {
+    text-decoration: none;
+    color: rgb(238, 235, 235);
+    font-weight: bold;
+}
+/* Efeito ao passar o mouse */
+.categoria:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
