@@ -1,130 +1,30 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-  }
-  
-  /* TOPO */
-  .top-bar {
-    background: #154926;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
-  }
-  
-  /* NAVEGAÇÃO */
-  nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: white;
-    padding: 15px 30px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    flex-wrap: wrap;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: #154926;
-  }
-  
-  .menu ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .menu ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-  }
-  
-  /* BANNER */
-  .banner {
-    height: 120px;
-    background: url('Categoria.jpg') no-repeat center center;
-    background-size: cover;
-  }
-  
-  /* CONTEÚDO PRINCIPAL */
-  .container {
+/* Container geral dos botões */
+.botoes-categorias {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    padding: 20px;
-    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+    padding: 24px;
+    max-width: 900px;
+    margin: 0 auto;
   }
   
-  .categoria {
-    text-decoration: none;
+  /* Estilo dos botões */
+  .botoes-categorias button {
+    background-color: #4CAF50;
     color: white;
-    font-weight: bold;
-    width: 180px;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 40px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  /* Cores por categoria */
-  .categoria1 { background-color: #4CAF50; }
-  .categoria2 { background-color: #66BB6A; }
-  .categoria3 { background-color: #81C784; }
-  .categoria4 { background-color: #A5D6A7; color: black; }
-  .categoria5 { background-color: #C8E6C9; color: black; }
-  .categoria6 { background-color: #388E3C; }
-  .categoria9 { background-color: #43A047; }
-  .categoria14 { background-color: #A5D6A7; color: black; }
-  
-  .categoria:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* FOOTER */
-  footer {
-    background-color: #154926;
-    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    padding: 16px 12px;
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-bottom: 10px;
-  }
-  
-  .footer-section h3 {
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
     font-size: 16px;
-    margin-bottom: 10px;
   }
   
-  .footer-section p {
-    font-size: 14px;
-  }
-  
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .copyright {
-    font-size: 12px;
-    margin-top: 10px;
+  .botoes-categorias button:hover {
+    background-color: #388E3C;
+    transform: translateY(-2px);
   }
   
