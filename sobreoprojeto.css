@@ -48,3 +48,27 @@ nav {
     font-weight: bold;
     color: #154926;
 }
+
+}
+.foto-logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 80px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(119, 20%, 54%);
+    font-weight: bold;
+    font-size: 10px
+}
