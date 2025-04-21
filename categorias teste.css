@@ -95,7 +95,7 @@ nav ul li a {
     background-size: cover;
     width: 100%;
 }
-}
+
 /* Categorias de livros */
 .Estante {
     padding: 20px;
@@ -119,6 +119,7 @@ nav ul li a {
     width: 100%;
     max-width: 1200px;
 }
+
 
 .Estante h2 {
     font-size: 24px;
