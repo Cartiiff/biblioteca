@@ -1,10 +1,3 @@
-/* Correção de largura e rolagem lateral */
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    overflow-x: hidden;
-}
 
 /* Box-sizing para controle mais preciso de largura */
 * {
@@ -54,4 +47,29 @@ body {
   text-decoration: none;
   font-size: 20px;
   position: relative;
+}
+
+
+
+.container {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.book-left {
+    width: 35%;
+    text-align: center;
+}
+
+.book-left img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 5px;
 }
