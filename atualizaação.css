@@ -73,3 +73,17 @@ body {
     max-width: 200px;
     border-radius: 5px;
 }
+
+/* Sinopse */
+.synopsis {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.synopsis h3 {
+    font-size: 18px;
+    color: #154926;
+    margin-bottom: 5px;
+}
