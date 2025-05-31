@@ -67,6 +67,42 @@ nav ul li a {
     color: #2e533f; /* mesma cor do logo */
     font-size: 16px;
 }
+.navbar {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #154926;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 10px;
+}
 
 /* Barra de pesquisa no menu */
 .search-bar {
