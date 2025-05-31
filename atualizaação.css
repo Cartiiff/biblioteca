@@ -87,3 +87,32 @@ body {
     color: #154926;
     margin-bottom: 5px;
 }
+
+/* Roda-pé */
+footer {
+    background-color: #154926;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 12px;
+}
+
+.footer-section h3 {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.footer-section p {
+    font-size: 12px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 10px;
+}
