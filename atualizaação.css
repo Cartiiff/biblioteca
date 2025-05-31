@@ -1,3 +1,24 @@
+/* Correção de largura e rolagem lateral */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/* Box-sizing para controle mais preciso de largura */
+* {
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 0;
+}
+
 /* Barra superior */
 .top-bar {
     background: #154926;
