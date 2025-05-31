@@ -49,22 +49,23 @@ nav {
     color: #154926;
 }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-}
 
 nav ul li {
     display: inline;
 }
 
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px; /* distância entre os itens */
+}
+
 nav ul li a {
     text-decoration: none;
-    color: hsl(119, 20%, 54%);
-    font-weight: bold;
-    font-size: 10px
+    color: #2e533f; /* mesma cor do logo */
+    font-size: 16px;
 }
 
 /* Barra de pesquisa no menu */
