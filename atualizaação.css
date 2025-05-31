@@ -88,6 +88,31 @@ body {
     margin-bottom: 5px;
 }
 
+/* Tabela de características */
+.book-right table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.book-right th, .book-right td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.book-right th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+
+/* Removendo o quadrado verde e ajustando a seta */
+a {
+    text-decoration: none;
+    color: rgb(238, 235, 235);
+    font-weight: bold;
+}
+
 /* Roda-pé */
 footer {
     background-color: #154926;
