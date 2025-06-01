@@ -23,6 +23,7 @@ body {
     position: relative;
     margin-top: -10px;
 }
+
 .navbar {
   background-color: #ffffff;
   padding: 10px 20px;
@@ -48,8 +49,6 @@ body {
   font-size: 20px;
   position: relative;
 }
-
-
 
 .container {
     display: flex;
@@ -141,18 +140,29 @@ footer {
     font-size: 12px;
     margin-top: 10px;
 }
+
+/* ======================== */
+/*  ✅ ALTERADO: book-top   */
+/* ======================== */
 .book-top {
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
   flex-wrap: wrap;
 }
 
 .book-cover {
-  width: 120px;
+  width: 130px;
   height: auto;
   border-radius: 5px;
+}
+
+.book-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .book-info h1 {
