@@ -6,11 +6,6 @@ html, body {
     overflow-x: hidden;
 }
 
-/* Box-sizing para controle mais preciso de largura */
-* {
-    box-sizing: border-box;
-}
-
 /* Estilos gerais */
 body {
     margin: 0;
