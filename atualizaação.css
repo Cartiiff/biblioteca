@@ -169,3 +169,9 @@ footer {
     margin-top: 10px;
 }
 
+/* Removendo o quadrado verde e ajustando a seta */
+a {
+    text-decoration: none;
+    color: rgb(238, 235, 235);
+    font-weight: bold;
+}
