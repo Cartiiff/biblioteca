@@ -80,9 +80,6 @@ body {
     text-align: center;
     font-weight: bold;
 }
-.green {
-    background-color: #228B22;
-}
 
 .btn:hover {
     opacity: 0.8;
