@@ -56,7 +56,9 @@ body {
     margin: 20px auto;
     gap: 20px;
 }
-
+.book-cover{
+    width: 100px;
+}
 .book-left {
     width: 35%;
     text-align: center;
@@ -148,6 +150,3 @@ body {
     font-weight: bold;
 }
 
-.book-top{
-    width: 100px;
-}
