@@ -1,3 +1,14 @@
+/* Barra superior */
+.top-bar {
+    background: #154926;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    width: 100%;
+    position: relative;
+    margin-top: -10px;
+}
 /* Correção de largura e rolagem lateral */
 html, body {
     margin: 0;
@@ -5,7 +16,6 @@ html, body {
     width: 100%;
     overflow-x: hidden;
 }
-
 /* Estilos gerais */
 body {
     margin: 0;
@@ -114,7 +124,6 @@ body {
     margin-bottom: 5px;
 }
 
-/* Tabela de características */
 .book-right table {
     width: 100%;
     border-collapse: collapse;
@@ -130,5 +139,33 @@ body {
 .book-right th {
     background-color: #f1f1f1;
     font-weight: bold;
+}
+/* Roda-pé */
+footer {
+    background-color: #154926;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 12px;
+}
+
+.footer-section h3 {
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.footer-section p {
+    font-size: 12px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 10px;
 }
 
