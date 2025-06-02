@@ -83,6 +83,31 @@ nav ul li a {
     padding: 8px;
     cursor: pointer;
 }
+.navbar {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: #154926;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  position: relative;
+}
 
 /* Banner */
 .banner {
