@@ -81,8 +81,13 @@ body {
     font-weight: bold;
 }
 
+.btn:hover {
+    opacity: 0.8;
+}
 
-
+.book-right {
+    width: 65%;
+}
 .book-right h1 {
     font-size: 24px;
     color: #154926;
