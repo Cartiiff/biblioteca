@@ -192,6 +192,7 @@ nav ul li a {
 /* Box-sizing para controle mais preciso de largura */
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 body nav a{
     text-decoration: none;
