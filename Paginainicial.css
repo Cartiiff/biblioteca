@@ -9,6 +9,7 @@ html, body {
 /* Box-sizing para controle mais preciso de largura */
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 /* Estilos gerais */
@@ -286,6 +287,4 @@ footer {
     font-size: 12px;
     margin-top: 10px;
 }
-p{
-   text-decoration: none; 
-}
+
